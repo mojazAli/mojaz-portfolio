@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mojaz Portfolio</title>
+		<link rel="stylesheet" href="global.css" />
+		<link rel="stylesheet" href="layout.css" />
+		<link rel="stylesheet" href="utility.css" />
+	</head>
+
+	<body>
+		<!-- Header start -->
+		<header>
+			<nav class="navbar" id="navbar">
+				<div class="left-box" id="logo">
+					<a href="./index.html">Mojaz Portfolio</a>
+				</div>
+				<div class="right-box">
+					<ul class="navbar-link-container">
+						<li>
+							<a class="navbar-link" href="./index.html">Home</a>
+						</li>
+						<li>
+							<a class="navbar-link" href="#about">About</a>
+						</li>
+						<li>
+							<a class="navbar-link" href="./index.html"
+								>Projects</a
+							>
+						</li>
+						<li>
+							<a class="navbar-link" href="./index.html"
+								>Services</a
+							>
+						</li>
+						<li>
+							<a class="navbar-link" href="./index.html"
+								>Contact Me</a
+							>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<!-- Header end -->
+
+		<!-- Main start -->
+		<main>
+			<section class="first-section">
+				<div class="left-section">
+					Hi, My name is <span class="text-lightgreen">Mojaz.</span>
+					<div>I am a passionate</div>
+					<span id="element" class="text-lightgreen"></span>
+					<div class="buttons">
+						<button
+							type="button"
+							class="btn"
+							id="download-resume-btn"
+						>
+							Download Resume
+						</button>
+						<button type="button" class="btn" id="github-btn">
+							Visit Github
+						</button>
+					</div>
+				</div>
+				<div class="right-section">
+					<img
+						src="images/software-engineer.png"
+						alt="Software Engineer"
+					/>
+				</div>
+			</section>
+			<hr id="section-divider" />
+
+			<section class="second-section">
+				<span class="text-gray subtitle">What i have done so far</span>
+				<h1>Work Experience</h1>
+				<div class="vertical-bar">
+					<div class="horizontal-bar">
+						<img
+							class="image-top"
+							src="images/html-5.png"
+							alt="HTML 5"
+						/>
+
+						<div class="career-title">
+							HTML Developer (2025-current)
+						</div>
+						<div class="career-description">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. In odio animi ratione illo laudantium
+							voluptate. Unde est accusamus provident tenetur,
+							soluta rem esse, reiciendis nisi, harum praesentium
+							dolores autem numquam?
+						</div>
+					</div>
+					<div class="horizontal-bar">
+						<img
+							class="image-top"
+							src="images/css-3.png"
+							alt="HTML 5"
+						/>
+
+						<div class="career-title">
+							CSS Developer (2025-current)
+						</div>
+						<div class="career-description">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. In odio animi ratione illo laudantium
+							voluptate. Unde est accusamus provident tenetur,
+							soluta rem esse, reiciendis nisi, harum praesentium
+							dolores autem numquam?
+						</div>
+					</div>
+					<div class="horizontal-bar">
+						<img
+							class="image-top"
+							src="images/js.png"
+							alt="HTML 5"
+						/>
+
+						<div class="career-title">
+							JavaScript Developer (2025-current)
+						</div>
+						<div class="career-description">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. In odio animi ratione illo laudantium
+							voluptate. Unde est accusamus provident tenetur,
+							soluta rem esse, reiciendis nisi, harum praesentium
+							dolores autem numquam?
+						</div>
+					</div>
+					<div class="horizontal-bar">
+						<img
+							class="image-top"
+							src="images/web-dev.png"
+							alt="HTML 5"
+						/>
+
+						<div class="career-title">
+							Frontend Web Developer (2025-current)
+						</div>
+						<div class="career-description">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. In odio animi ratione illo laudantium
+							voluptate. Unde est accusamus provident tenetur,
+							soluta rem esse, reiciendis nisi, harum praesentium
+							dolores autem numquam?
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- Main end -->
+
+		<!-- Footer start -->
+		<footer id="about">
+			<div class="footer">
+				<div class="footer-first">
+					<span class="widget-title">Mojaz Portfolio</span>
+					<div class="text-gray widget-text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing
+						elit. Possimus sed magnam molestias dolore nobis natus
+						optio sapiente earum tempora, ut pariatur incidunt nihil
+						itaque similique? Possimus perferendis dolore placeat.
+						Veniam.
+					</div>
+					<div></div>
+				</div>
+				<div class="footer-second">
+					<ul class="footer-link-container">
+						<li>
+							<a class="footer-link" href="#navbar"
+								>Go To Top</a
+							>
+						</li>
+						<li>
+							<a class="footer-link" href="./index.html"
+								>Projects</a
+							>
+						</li>
+						<li>
+							<a class="footer-link" href="./index.html"
+								>Services</a
+							>
+						</li>
+						<li>
+							<a class="footer-link" href="./index.html"
+								>Contact Me</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-rights text-gray">
+				Copyright &copy; 2026 mojazportfolio.com | All Rights Reserved.
+			</div>
+		</footer>
+		<!-- Footer end -->
+
+		<script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+		<script>
+			var typed = new Typed("#element", {
+				strings: ["Software Engineer."],
+				typeSpeed: 50,
+			});
+
+			document
+				.getElementById("download-resume-btn")
+				.addEventListener("click", function () {
+					alert("Replace `resume.txt` with `resume.pdf` ...");
+					const link = document.createElement("a");
+
+					link.href = "resume.txt";
+					link.download = "resume.txt";
+
+					document.body.appendChild(link);
+					link.click();
+					document.body.removeChild(link);
+				});
+
+			document
+				.getElementById("github-btn")
+				.addEventListener("click", function () {
+					window.location.href = "https://github.com/mojazAli";
+				});
+		</script>
+	</body>
+</html>

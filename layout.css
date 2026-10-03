@@ -1,0 +1,189 @@
+/* layout css */
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #282828;
+	height: 60px;
+}
+
+.navbar-link-container {
+	display: flex;
+	justify-content: center;
+}
+
+.navbar-link-container > li {
+	list-style: none;
+	margin: 23px;
+}
+
+.navbar-link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.navbar-link:hover {
+	color: #ababab;
+}
+
+.navbar > .left-box {
+	font-size: 1.5rem;
+}
+
+#logo > a {
+	text-decoration: none;
+	color: #95ffdc;
+}
+
+.first-section {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+
+.first-section > div {
+	width: 30%;
+}
+
+.left-section {
+	/* background-color: red; */
+	font-size: 2.7rem;
+}
+
+.left-section .btn {
+	font-size: 22px;
+	padding: 10px;
+	margin-top: 50px;
+	margin-right: 10px;
+	border-radius: 5px;
+	background-color: #333030;
+	color: #fff;
+	border: 2px solid #d4d4d4;
+}
+
+.left-section .btn:hover {
+	font-size: 22px;
+	padding: 10px;
+	margin-top: 50px;
+	margin-right: 10px;
+	border-radius: 5px;
+	background-color: #fff;
+	color: #333030;
+	border: 2px solid #fff;
+	cursor: pointer;
+}
+
+.right-section {
+	/* background-color: red; */
+}
+
+.right-section > img {
+	width: 100%;
+}
+
+.second-section {
+	max-width: 80vw;
+	margin: auto;
+	/* height: 100vh; */
+}
+
+.second-section > .vertical-bar {
+	background-color: white;
+	width: 2px;
+	margin: 50px 0;
+	height: 420px;
+	display: flex;
+	flex-direction: column;
+}
+
+.vertical-bar > .horizontal-bar {
+	height: 2px;
+	width: 70px;
+	background-color: white;
+	margin: 50px 0;
+}
+
+#section-divider {
+	border: 0;
+	background-color: #95ffdc;
+	height: 1px;
+	margin: 0 70px;
+}
+
+.subtitle {
+	display: block;
+	margin-top: 20px;
+	/* background-color: red; */
+	font-size: 18px;
+}
+
+.image-top {
+	width: 30px;
+	/* background-color: white; */
+	position: relative;
+	left: -40px;
+	bottom: 15px;
+}
+
+.career-title {
+	position: relative;
+	left: 80px;
+	bottom: 46px;
+	/* background-color: red; */
+	width: 800px;
+	font-size: 18px;
+}
+
+.career-description {
+	width: 800px;
+	position: relative;
+	left: 80px;
+	bottom: 45px;
+	color: rgb(160, 160, 160);
+}
+
+footer {
+	background-color: #222;
+}
+
+.footer {
+	padding-top: 20px;
+
+	display: flex;
+	justify-content: space-around;
+	margin-top: 100px;
+	/* align-items: center; */
+}
+
+.footer-first,
+.footer-second {
+	height: 150px;
+}
+
+.footer-first {
+	width: 300px;
+}
+
+.footer-second > ul {
+	list-style: none;
+}
+
+.footer-link-container > li {
+	margin: 10px;
+}
+
+.footer-link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer-link:hover {
+	color: #ababab;
+}
+
+.footer-rights {
+	padding: 15px 0;
+	text-align: center;
+}

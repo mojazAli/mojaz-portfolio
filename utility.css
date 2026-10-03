@@ -1,0 +1,16 @@
+/* utiliy css */
+.text-lightgreen {
+	color: #95ffdc;
+}
+
+.text-gray {
+	color: rgb(172, 172, 172);
+}
+
+.widget-title {
+	font-size: 18px;
+}
+
+.widget-text {
+	font-size: 14px;
+}
